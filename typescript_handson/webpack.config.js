@@ -1,5 +1,5 @@
 module.exports = {
-  entry: { bundle: "./src/index.ts" },
+  entry: { bundle: "./src/index.ts" }, //インポート先のTSファイルの指定。エントリーポイント。
   output: {
     path: `${__dirname}/dist`, //{__dirname} はプロジェクトのルートディレクトリを指す
     filename: "[name].js",
